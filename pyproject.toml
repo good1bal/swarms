@@ -62,7 +62,8 @@ Issues = "https://github.com/your-org/swarms-fork/issues"
 Changelog = "https://github.com/your-org/swarms-fork/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
-where = ["."]include = ["swarms*"]
+where = ["."]
+include = ["swarms*"]
 
 [tool.ruff]
 line-length = 88
