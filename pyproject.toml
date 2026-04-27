@@ -83,6 +83,8 @@ warn_unused_configs = true
 ignore_missing_imports = true
 # I find disallow_untyped_defs too noisy for exploratory work in this fork
 disallow_untyped_defs = false
+# Also silence warnings about missing return types in partially-typed modules
+warn_return_any = false
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
